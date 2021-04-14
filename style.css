@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+section.top-page {
+    background: url("img/pexels-alleksana-4186044.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+header.header img {
+   width: 100px; 
+   background-color: wheat;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+
+nav.nav li {
+    color: rgba(77, 230, 97, 0.959);
+}
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+  color: wheat;
+  font-size: 80px;  
+  font-weight: 100;
+}
+
+.scroll-down {
+    color: wheat;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #add981;
+
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-details {
+   font-weight: 600;
+   width: 200px;
+   text-align: center;
+   }
+
+   .section-title {
+       font-size: 50px;
+       font-family: 'Montserrat';
+       font-weight: 100;
+       position: relative;
+   }
+
+   .section-title::before {
+       content: "";
+       position: absolute;
+       background-color: #add981;
+       width: 50px;
+       height: 7px;
+   }
